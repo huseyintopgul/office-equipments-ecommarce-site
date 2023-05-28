@@ -10,3 +10,12 @@
 .dropdown:hover > .dropdown-content {
 	display: block;
 }
+.slide-zoom{
+     overflow: hidden;
+}
+.slide-zoom-image{
+    transition: all ease-in .3s;
+}
+.slide-zoom-image:hover{
+    transform: scale(1.1);
+}

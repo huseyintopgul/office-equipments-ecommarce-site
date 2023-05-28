@@ -1,11 +1,14 @@
-import React from 'react'
-import HeaderMenu from '../component/Header/HeaderMenu'
+import OfisMalzemeleri from "../component/sections/body/ofisMalzemeleri/OfisMalzemeleri"
+import SectionSlide from "../component/sections/slide/SectionSlide"
+
+
 
 const Home = () => {
   return (
     <>
-      <HeaderMenu />
-      
+      <SectionSlide />
+      <OfisMalzemeleri />
+
     </>
   )
 }

@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<HeaderMenu />}>
-          <Route path="/" element={<Home />} />
+          <Route index={true} element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/hakkimizda" element={<Hakkimizda />} />
