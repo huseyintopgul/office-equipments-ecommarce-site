@@ -1,10 +1,10 @@
 import React from 'react'
-import Urunler from './article/Urunler'
+import OfisUrunleri from './article/Urunler'
 
 const OfisMalzemeleri = () => {
     return (
         <div>
-            <Urunler />
+            <OfisUrunleri />
         </div>
     )
 }
