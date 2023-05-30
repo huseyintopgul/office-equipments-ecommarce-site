@@ -6,6 +6,7 @@ import Mobilyalar from "../component/sections/body/mobilya/Mobilyalar"
 import OfisMalzemeleri from "../component/sections/body/ofisMalzemeleri/OfisMalzemeleri"
 import ResimMalzemeleri from "../component/sections/body/resimMalzemeleri/ResimMalzemeleri"
 import Sandalye from "../component/sections/body/sandalye/Sandalye"
+import Footer from "../component/sections/footer/Footer"
 import SectionSlide from "../component/sections/slide/SectionSlide"
 
 
@@ -38,6 +39,9 @@ const Home = () => {
       </div>
       <div>
         <Kasalar />
+      </div>
+      <div>
+        <Footer />
       </div>
 
     </>
