@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { TbWorld } from 'react-icons/tb';
@@ -5,8 +6,27 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { AiOutlineDown, AiOutlineRight, AiOutlineHeart } from 'react-icons/ai';
 import { MdCompareArrows } from 'react-icons/md';
 import { BsBasket } from 'react-icons/bs';
+import Box from '@mui/material/Box';
+import Modal from '@mui/material/Modal';
+import Login from '../authComponent/loginComponent/LoginComp';
+
+
+const style = {
+    position: 'absolute',
+    top: 50,
+    right: '8%',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+};
 
 const HeaderMenu = () => {
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
+
 
     return (
         <div className='w-full justify-center '>
@@ -44,7 +64,8 @@ const HeaderMenu = () => {
                             <span>EN</span>
                         </li>
                     </ul>
-                    <input type="button"
+                    <input onMouseMove={handleOpen}
+                        type="button"
                         name='login-register'
                         value="GİRİŞ / KAYIT"
                         className='cursor-pointer pl-4'
@@ -412,7 +433,21 @@ const HeaderMenu = () => {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <div className='log-modal'>
+                    <Modal
+                        keepMounted
+                        open={open}
+                        onClose={handleClose}
+                        aria-labelledby="keep-mounted-modal-title"
+                        aria-describedby="keep-mounted-modal-description"
+                    >
+                        <Box sx={style}>
+                            <Login />
+                        </Box>
+                    </Modal>
+                </div>
+            </div>
             <Outlet />
         </div>
     )
