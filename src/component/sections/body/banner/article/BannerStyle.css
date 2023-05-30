@@ -1,0 +1,16 @@
+.banner-left,
+.banner-right,
+.banner-middle{
+overflow:hidden;
+}
+.banner-left img,
+.banner-right img,
+.banner-middle img{
+object-fit:cover;
+transition: transform .5s;
+}
+.banner-left:hover img,
+.banner-right:hover img,
+.banner-middle:hover img{
+transform:scale(1.5);
+}

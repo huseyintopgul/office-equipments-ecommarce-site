@@ -1,13 +1,21 @@
 import { Link } from 'react-router-dom';
 import { FaFacebookF } from 'react-icons/fa';
 import { FiInstagram } from 'react-icons/fi';
-import { BsWhatsapp, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import { BsWhatsapp, BsTwitter, BsLinkedin, BsArrowUpCircleFill } from 'react-icons/bs';
 import { SiTiktok } from 'react-icons/si';
 
 const FooterBody = () => {
+
+    const clickTop = () => {
+        window.scroll({
+            top: 0,
+            behavior: "smooth",
+          });
+    };
+
     return (
-        <div className='flex justify-center items-center bg-black/95'>
-            <div className='w-[80%] h-[500px] flex items-start justify-between pt-12 text-slate-200'>
+        <div className='flex justify-center relative items-center bg-black/95'>
+            <div className='w-[80%] h-auto flex items-start justify-between py-12 text-slate-200'>
                 <div className='footer-left w-[30%] flex flex-col items-center text-center'>
                     <div className=' text-5xl w-[50%] pb-5 font-bold border-b'>
                         LOGO
@@ -81,17 +89,20 @@ const FooterBody = () => {
                 </div>
                 <div className='footer-right w-[25%]'>
                     <form action="" className='flex flex-col justify-start'>
-                        <input className='w-[250px] h-10 pl-5  rounded-full bg-transparent border border-gray-400 mb-4 outline-none hover:border-fuchsia-100' 
-                        type="email" 
-                        name="abone"
-                        placeholder='E-posta adresiniz'
+                        <input className='w-[250px] h-10 pl-5  rounded-full bg-transparent border border-gray-400 mb-4 outline-none hover:border-fuchsia-100'
+                            type="email"
+                            name="abone"
+                            placeholder='E-posta adresiniz'
                         />
                         <input className='bg-[#d21937] w-28 h-10 rounded-full' type="button" value="Abone Ol" />
                     </form>
                 </div>
             </div>
+            <div onClick={clickTop}
+                className='absolute bottom-10 right-10 text-slate-200 text-[50px] cursor-pointer hover:scale-[1.2]'>
+                <BsArrowUpCircleFill />
+            </div>
         </div>
     )
 }
-
 export default FooterBody

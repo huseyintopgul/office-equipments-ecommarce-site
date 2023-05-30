@@ -397,15 +397,15 @@ const HeaderMenu = () => {
                         </div>
                     </form>
                     <div className='header-icons flex space-x-7'>
-                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center'>
+                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center cursor-pointer'>
                             <MdCompareArrows size={'30px'} />
                             <div className='absolute flex items-center justify-center border border-gray-400 bg-white rounded-[50%] w-5 h-5  top-[-3px] right-[-3px] text-md text-red-600'>0</div>
                         </div>
-                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center'>
+                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center cursor-pointer'>
                             <AiOutlineHeart size={'25px'} />
                             <div className='absolute flex items-center justify-center border border-gray-400 bg-white rounded-[50%] w-5 h-5  top-[-3px] right-[-3px] text-md text-red-600'>0</div>
                         </div>
-                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center'>
+                        <div className='relative flex border border-gray-400 rounded-[50%] border-double w-14 h-14 items-center justify-center cursor-pointer'>
                             <BsBasket size={'25px'} />
                             <div className='absolute flex items-center justify-center border border-gray-400 bg-white rounded-[50%] w-5 h-5  top-[-3px] right-[-3px] text-md text-red-600'>0</div>
                         </div>

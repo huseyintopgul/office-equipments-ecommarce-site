@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 import { RxDotFilled } from 'react-icons/rx';
 
@@ -7,6 +7,9 @@ const HeaderSlide = () => {
         { url: 'https://images.pexels.com/photos/5417636/pexels-photo-5417636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' },
         { url: 'https://images.pexels.com/photos/4087394/pexels-photo-4087394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' },
         { url: 'https://images.pexels.com/photos/5499114/pexels-photo-5499114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' },
+        { url: 'https://images.pexels.com/photos/7718635/pexels-photo-7718635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' },
+        { url: 'https://images.pexels.com/photos/5190598/pexels-photo-5190598.jpeg' },
+        { url: 'https://images.pexels.com/photos/5088015/pexels-photo-5088015.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' }
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,11 +29,17 @@ const HeaderSlide = () => {
         setCurrentIndex(slideIndex);
     };
 
+    useEffect(()=> {
+        setInterval(()=>{
+            const randomNumber = Math.floor(Math.random() * slides.length);
+        setCurrentIndex(randomNumber);
+        },5000)
+    },[slides.length]);
 
     return (
         <div className="w-full flex justify-center m-auto group ">
             <div className='slide-zoom w-[80%] h-auto my-10 relative'>
-                <div className="slide-zoom-image w-full h-[330px] "
+                <div className="slide-zoom-image w-full h-[400px] "
                     style={{
                         backgroundImage: `url(${slides[currentIndex].url})`,
                         backgroundPosition: 'center center',

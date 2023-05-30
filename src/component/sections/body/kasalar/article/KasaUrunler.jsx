@@ -4,7 +4,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 const KasaUrunler = () => {
     return (
         <div>
-            <div className="h-auto flex items-center justify-center border-b-2 mb-14 border-black">
+            <div className="h-auto flex items-center justify-center mb-14">
                 <div className='w-[80%] my-5 relative'>
                     <div className="flex items-center border-b-2 mb-2 border-black w-full h-14">
                         <span className="text-2xl font-medium tracking-wider">KASALAR</span>
