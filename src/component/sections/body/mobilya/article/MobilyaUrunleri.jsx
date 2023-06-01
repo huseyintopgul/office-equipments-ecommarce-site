@@ -3,7 +3,7 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 const MobilyaUrunleri = () => {
     return (
         <div className="h-auto flex items-center justify-center mb-14">
-            <div className='w-[80%] 2xl:w-[50%] my-5 relative'>
+            <div className='w-[80%] 2xl:w-[70%] my-5 relative'>
                 <div className="flex items-center border-b-2 mb-2 border-black w-full h-14">
                     <span className="lg:text-2xl text-md font-medium tracking-wider">MOBİLYA</span>
                     {/* left arrow */}

@@ -37,8 +37,8 @@ const HeaderSlide = () => {
     },[slides.length]);
 
     return (
-        <div className="w-full flex justify-center m-auto group ">
-            <div className='slide-zoom w-[80%] h-auto my-10 relative'>
+        <div className="flex justify-center m-auto group ">
+            <div className='slide-zoom w-[80%] 2xl:w-[70%] h-auto my-10 relative'>
                 <div className="slide-zoom-image w-full h-[400px] "
                     style={{
                         backgroundImage: `url(${slides[currentIndex].url})`,

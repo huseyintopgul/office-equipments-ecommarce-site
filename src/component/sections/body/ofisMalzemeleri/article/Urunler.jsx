@@ -4,7 +4,7 @@ const OfisUrunleri = () => {
 
     return (
         <div className="h-auto flex items-center justify-center">
-            <div className='w-[80%] 2xl:w-[50%] my-5 relative'>
+            <div className='w-[80%] 2xl:w-[70%] my-5 relative'>
                 <div className="flex items-center border-b-2 mb-2 border-black w-full h-14">
                     <span className="lg:text-2xl text-md font-medium tracking-wider">OFİS MALZEMELERİ</span>
                     {/* left arrow */}
@@ -17,9 +17,9 @@ const OfisUrunleri = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center my-10 flex-wrap gap-5'>
-                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
-                        <div>
-                            <img src="https://www.antaris.az/wp-content/uploads/2023/04/2061-Deli-wep.webp" alt="" />
+                    <div className="md:w-[45%] lg:w-[18%] sm:h-[400px] md:h-auto flex flex-col md:my-7 2xl:my-16 items-center text-center">
+                        <div className='sm:h-[250px] md:h-auto'>
+                            <img className='h-full w-full' src="https://www.antaris.az/wp-content/uploads/2023/04/2061-Deli-wep.webp" alt="" />
                         </div>
                         <div className="mt-3 mx-4 font-medium">
                             <h2>Ürün Başlığı</h2>
@@ -32,9 +32,9 @@ const OfisUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
-                        <div className="w-full">
-                            <img src="https://www.antaris.az/wp-content/uploads/2023/02/FO11010-wep.webp" alt="" />
+                    <div className="md:w-[45%] lg:w-[18%] sm:h-[400px] md:h-auto flex flex-col md:my-7 2xl:my-16 items-center text-center">
+                        <div className="sm:h-[250px] md:h-auto">
+                            <img className='h-full' src="https://www.antaris.az/wp-content/uploads/2023/02/FO11010-wep.webp" alt="" />
                         </div>
                         <div className="mt-3 mx-4 font-medium">
                             <h2>Ürün Başlığı</h2>
@@ -47,9 +47,9 @@ const OfisUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
-                        <div className="w-full">
-                            <img src="https://www.antaris.az/wp-content/uploads/2021/04/ff81378da10111e981183cd92b04d74e_dcd4a51b9c2611eb81b00050569bd7c0.jpg" alt="" />
+                    <div className="md:w-[45%] lg:w-[18%] sm:h-[400px] md:h-auto flex flex-col md:my-7 2xl:my-16 items-center text-center">
+                        <div className="sm:h-[250px] md:h-auto">
+                            <img className='h-full' src="https://www.antaris.az/wp-content/uploads/2021/04/ff81378da10111e981183cd92b04d74e_dcd4a51b9c2611eb81b00050569bd7c0.jpg" alt="" />
                         </div>
                         <div className="mt-3 mx-4 font-medium">
                             <h2>Ürün Başlığı</h2>
@@ -62,9 +62,9 @@ const OfisUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
-                        <div className="w-full">
-                            <img src="https://www.antaris.az/wp-content/uploads/2021/01/182711-Faber-Castell-wep.webp" alt="" />
+                    <div className="md:w-[45%] lg:w-[18%] sm:h-[400px] md:h-auto flex flex-col md:my-7 2xl:my-16 items-center text-center">
+                        <div className="sm:h-[250px] md:h-auto">
+                            <img className='h-full' src="https://www.antaris.az/wp-content/uploads/2021/01/182711-Faber-Castell-wep.webp" alt="" />
                         </div>
                         <div className="mt-3 mx-4 font-medium">
                             <h2>Ürün Başlığı</h2>

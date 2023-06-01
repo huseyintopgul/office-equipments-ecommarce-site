@@ -15,7 +15,7 @@ const FooterBody = () => {
 
     return (
         <div className='h-auto flex justify-center relative items-center bg-black/95'>
-            <div className='w-[80%] 2xl:w-[50%] my-5 relative flex  flex-col md:flex-row items-start md:justify-between py-12 text-slate-200'>
+            <div className='w-[80%] 2xl:w-[70%] my-5 relative flex  flex-col md:flex-row items-start md:justify-between py-12 text-slate-200'>
                 <div className='footer-left w-full md:w-[30%] flex flex-col justify-center items-center text-center'>
                     <div className=' text-5xl w-[50%] pb-5 font-bold border-b'>
                         LOGO
