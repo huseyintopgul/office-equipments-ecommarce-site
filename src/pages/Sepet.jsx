@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Sepet = () => {
+const Sepet = ({ total }) => {
     return (
         <div>
-            sepet
+            TOPLAM TUTAR: <span>{total} ₺</span>
         </div>
     )
 }

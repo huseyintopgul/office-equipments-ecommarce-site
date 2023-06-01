@@ -14,6 +14,7 @@ export default function Example() {
 
     const navigate = useNavigate();
     const { quantity } = useSelector((store) => store.cart);
+console.log(quantity);
 
     return (
         <div className='h-auto items-center justify-center'>
