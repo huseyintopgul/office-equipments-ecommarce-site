@@ -14,7 +14,7 @@ import SectionSlide from "../component/sections/slide/SectionSlide"
 
 const Home = () => {
   return (
-    <>
+    <div>
       <div>
         <SectionSlide />
       </div>
@@ -48,7 +48,7 @@ const Home = () => {
       <div>
         <Kisayol />
       </div>
-    </>
+    </div>
   )
 }
 

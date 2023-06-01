@@ -3,20 +3,20 @@ import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 const MobilyaUrunleri = () => {
     return (
         <div className="h-auto flex items-center justify-center mb-14">
-            <div className='w-[80%] my-5 relative'>
+            <div className='w-[80%] 2xl:w-[50%] my-5 relative'>
                 <div className="flex items-center border-b-2 mb-2 border-black w-full h-14">
-                    <span className="text-2xl font-medium tracking-wider">MOBİLYA</span>
+                    <span className="lg:text-2xl text-md font-medium tracking-wider">MOBİLYA</span>
                     {/* left arrow */}
-                    <div className='slide-icons absolute right-14 text-2xl cursor-pointer'>
-                        <AiOutlineLeft size={20} />
+                    <div className='slide-icons absolute right-10 lg:text-2xl text-sm cursor-pointer'>
+                        <AiOutlineLeft />
                     </div>
                     {/* right arrow */}
-                    <div className='slide-icons absolute  right-3 text-2xl cursor-pointer'>
-                        <AiOutlineRight size={20} />
+                    <div className='slide-icons absolute  right-3 lg:text-2xl text-sm cursor-pointer'>
+                        <AiOutlineRight />
                     </div>
                 </div>
-                <div className='h-full flex justify-center items-center flex-wrap gap-7'>
-                    <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                <div className='w-full flex justify-center items-center my-10 flex-wrap gap-5'>
+                    <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                         <div className="w-full ">
                             <img src="https://www.antaris.az/wp-content/uploads/2023/04/Rexel-305st.webp" alt="" />
                         </div>
@@ -35,7 +35,7 @@ const MobilyaUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="w-[18%] h-[320px] flex flex-col my-7 items-center text-center">
+                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                         <div className="w-full">
                             <img src="https://www.antaris.az/wp-content/uploads/2020/10/102-SG.jpg" alt="" />
                         </div>
@@ -50,7 +50,7 @@ const MobilyaUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                    <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                         <div className="w-full ">
                             <img src="https://www.antaris.az/wp-content/uploads/2020/10/102SS-.jpg" alt="" />
                         </div>
@@ -69,7 +69,7 @@ const MobilyaUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="w-[18%] h-[320px] flex flex-col my-7 items-center text-center">
+                    <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                         <div className="w-full">
                             <img src="https://www.antaris.az/wp-content/uploads/2020/10/MA175-1.jpg" alt="" />
                         </div>
@@ -84,7 +84,7 @@ const MobilyaUrunleri = () => {
                         </div>
                     </div>
 
-                    <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                    <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                         <div className="w-full ">
                             <img src="https://www.antaris.az/wp-content/uploads/2020/04/AN-00-00000059-Dolab-asma-qovluq-%C3%BC%C3%A7%C3%BCn-B4-4-siyirm%C9%99li-1320mm465mm645mm-304ST.jpg" alt="" />
                         </div>

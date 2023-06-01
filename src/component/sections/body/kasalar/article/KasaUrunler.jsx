@@ -1,24 +1,24 @@
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 
-
 const KasaUrunler = () => {
+
     return (
         <div>
             <div className="h-auto flex items-center justify-center mb-14">
-                <div className='w-[80%] my-5 relative'>
+                <div className='w-[80%] 2xl:w-[50%] my-5 relative'>
                     <div className="flex items-center border-b-2 mb-2 border-black w-full h-14">
-                        <span className="text-2xl font-medium tracking-wider">KASALAR</span>
+                        <span className="lg:text-2xl text-md font-medium tracking-wider">KASALAR</span>
                         {/* left arrow */}
-                        <div className='slide-icons absolute right-14 text-2xl cursor-pointer'>
-                            <AiOutlineLeft size={20} />
+                        <div className='slide-icons absolute right-10 lg:text-2xl text-sm cursor-pointer'>
+                            <AiOutlineLeft />
                         </div>
                         {/* right arrow */}
-                        <div className='slide-icons absolute  right-3 text-2xl cursor-pointer'>
-                            <AiOutlineRight size={20} />
+                        <div className='slide-icons absolute  right-3 lg:text-2xl text-sm cursor-pointer'>
+                            <AiOutlineRight />
                         </div>
                     </div>
-                    <div className='h-full flex justify-center items-center flex-wrap gap-7'>
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                    <div className='w-full flex justify-center items-center my-10 flex-wrap gap-5'>
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2022/07/5.MSR_.50.E-RED.1.webp" alt="" />
                             </div>
@@ -37,7 +37,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] flex flex-col my-7 items-center text-center">
+                        <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full">
                                 <img src="https://www.antaris.az/wp-content/uploads/2021/10/CL-III.50.K.E-Gold-open-1200x1200.webp" alt="" />
                             </div>
@@ -52,7 +52,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2020/04/AN-00-00022866-1.jpg" alt="" />
                             </div>
@@ -71,7 +71,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] flex flex-col my-7 items-center text-center">
+                        <div className="md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full">
                                 <img src="https://www.antaris.az/wp-content/uploads/2022/07/1-.MSR_.30.E-RED_1.webp" alt="" />
                             </div>
@@ -86,7 +86,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2022/07/3.MSR_.30.E-WHITE_1.webp" alt="" />
                             </div>
@@ -105,7 +105,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2020/04/AN-00-00022871-Seyf-200194mm430424mm365320mm-19kq-SH.20.K.E.jpg" alt="" />
                             </div>
@@ -124,7 +124,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2022/07/2.MSR_.30.E-BLUE.webp" alt="" />
                             </div>
@@ -143,7 +143,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2020/11/FS.90.K-open-1000x700-1.jpg" alt="" />
                             </div>
@@ -162,7 +162,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2022/07/7.-MSR.50.E-WHITE_1.webp" alt="" />
                             </div>
@@ -181,7 +181,7 @@ const KasaUrunler = () => {
                             </div>
                         </div>
 
-                        <div className="w-[18%] h-[320px] relative flex flex-col my-7 items-center text-center">
+                        <div className="relative md:w-[45%] lg:w-[18%] flex flex-col md:my-7 2xl:my-16 items-center text-center">
                             <div className="w-full ">
                                 <img src="https://www.antaris.az/wp-content/uploads/2021/10/14.W.2015.K.open_-1200x1200.webp" alt="" />
                             </div>

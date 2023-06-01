@@ -9,6 +9,7 @@ import Urunler from './pages/Urunler';
 import Kurumsal from './pages/Kurumsal';
 import Logout from './pages/Logout';
 import HeaderMenu from './component/Header/HeaderMenu';
+import Sepet from './pages/Sepet';
 
 
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/urunler" element={<Urunler />} />
           <Route path="/kurumsal" element={<Kurumsal />} />
           <Route path="/cikis" element={<Logout />} />
+          <Route path="/sepet" element={<Sepet />} />
         </Route>
       </Routes>
 

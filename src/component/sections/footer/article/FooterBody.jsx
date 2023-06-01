@@ -14,9 +14,9 @@ const FooterBody = () => {
     };
 
     return (
-        <div className='flex justify-center relative items-center bg-black/95'>
-            <div className='w-[80%] h-auto flex items-start justify-between py-12 text-slate-200'>
-                <div className='footer-left w-[30%] flex flex-col items-center text-center'>
+        <div className='h-auto flex justify-center relative items-center bg-black/95'>
+            <div className='w-[80%] 2xl:w-[50%] my-5 relative flex  flex-col md:flex-row items-start md:justify-between py-12 text-slate-200'>
+                <div className='footer-left w-full md:w-[30%] flex flex-col justify-center items-center text-center'>
                     <div className=' text-5xl w-[50%] pb-5 font-bold border-b'>
                         LOGO
                     </div>
@@ -50,8 +50,8 @@ const FooterBody = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='footer-middle w-[25%]'>
-                    <div className='sosyalMedia w-[250px] text-gray-400 text-lg'>
+                <div className='footer-middle flex align-middle text-center w-full md:w-[25%]'>
+                    <div className='sosyalMedia w-full md:w-[250px] text-gray-400 text-lg'>
                         <ul className='justify-center items-center'>
                             <li>
                                 <Link to="/hakkimizda"> Hakkımızda </Link>
@@ -87,19 +87,19 @@ const FooterBody = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='footer-right w-[25%]'>
+                <div className='footer-right w-full md:w-[25%] my-8'>
                     <form action="" className='flex flex-col justify-start'>
-                        <input className='w-[250px] h-10 pl-5  rounded-full bg-transparent border border-gray-400 mb-4 outline-none hover:border-fuchsia-100'
+                        <input className='w-full md:w-[250px] h-10 pl-5  rounded-full bg-transparent border border-gray-400 mb-4 outline-none hover:border-fuchsia-100'
                             type="email"
                             name="abone"
                             placeholder='E-posta adresiniz'
                         />
-                        <input className='bg-[#d21937] w-28 h-10 rounded-full' type="button" value="Abone Ol" />
+                        <input className='bg-[#d21937] w-full md:w-28 h-10 rounded-full' type="button" value="Abone Ol" />
                     </form>
                 </div>
             </div>
             <div onClick={clickTop}
-                className='absolute bottom-10 right-10 text-slate-200 text-[50px] cursor-pointer hover:scale-[1.2]'>
+                className='absolute bottom-30 right-10 text-slate-200 text-[50px] cursor-pointer hover:scale-[1.2]'>
                 <BsArrowUpCircleFill />
             </div>
         </div>

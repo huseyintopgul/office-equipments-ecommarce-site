@@ -6,7 +6,7 @@ import { SiTiktok } from 'react-icons/si';
 
 const Kısayol = () => {
     return (
-        <div className='fixed top-[50%] -translate-y-[50%] right-0 text-slate-200 my-7'>
+        <div className='hidden lg:block fixed top-[50%] -translate-y-[50%] right-0 text-slate-200 my-7'>
             <ul className='flex flex-col justify-center items-center text-2xl'>
 
                 <li className='ekran-kısayol w-11 h-10 flex justify-center items-center bg-[#3B5998] hover:rotate-12'>
