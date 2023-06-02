@@ -7,6 +7,7 @@ const urunlerData = [
     discaount: 4,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'sadsadsadstrhsadsadsadsad',
@@ -16,6 +17,7 @@ const urunlerData = [
     discaount: 10,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'sadsadsadfhtsadsadsadsadsa',
@@ -25,6 +27,7 @@ const urunlerData = [
     discaount: 25,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'adsadsadshytdadsadsadsadsaf',
@@ -34,6 +37,7 @@ const urunlerData = [
     discaount: 8,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'adsadsadsrthrsadsada',
@@ -43,6 +47,7 @@ const urunlerData = [
     discaount: 30,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'sadsadsadsadsashtdsadsad',
@@ -52,6 +57,7 @@ const urunlerData = [
     discaount: 12,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'sadsadsasrhdsadsadsadsadsa',
@@ -61,6 +67,7 @@ const urunlerData = [
     discaount: 8,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'adsadsadsghrsradsadsadsadsaf',
@@ -70,6 +77,7 @@ const urunlerData = [
     discaount: 15,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'adsadsadsuyjydttdsada',
@@ -79,6 +87,7 @@ const urunlerData = [
     discaount: 20,
     oldP: 0,
     quantity: 0,
+    category: '',
   },
   {
     id: 'sadsadsadsadsadsadujjyujsad',
@@ -88,6 +97,7 @@ const urunlerData = [
     discaount: 35,
     oldP: 0,
     quantity: 0,
+    category: '',
   }
 ]
 

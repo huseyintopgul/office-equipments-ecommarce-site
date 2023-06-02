@@ -13,6 +13,7 @@ import SectionSlide from "../component/sections/slide/SectionSlide"
 
 
 const Home = () => {
+
   return (
     <div>
       <div>

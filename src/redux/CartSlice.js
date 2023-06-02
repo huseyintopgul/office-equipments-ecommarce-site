@@ -5,17 +5,17 @@ const cartSlice = createSlice({
     name: 'cart',
     initialState: {
         cartItems: urunlerData,
+        oldP: 0,
         quantity: 0,
         total: 0,
     },
     reducers: {
-        increment:(state, action)=>{
+        increase: (state, action) => {
             state.quantity = state.quantity + 1;
         }
-
     }
 
 });
 
-export const {increment} = cartSlice.actions;
+export const { increase, calculateTotal } = cartSlice.actions;
 export default cartSlice.reducer;
